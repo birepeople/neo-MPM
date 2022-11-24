@@ -1,0 +1,9 @@
+[submodule "external/bgfx_cmake"]
+	path = external/bgfx_cmake
+	url = https://github.com/bkaradzic/bgfx.cmake.git
+[submodule "external/eigen"]
+	path = external/eigen
+	url = https://gitlab.com/libeigen/eigen.git
+[submodule "external/tinyobjloader"]
+	path = external/tinyobjloader
+	url = https://github.com/tinyobjloader/tinyobjloader.git
