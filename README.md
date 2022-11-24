@@ -5,9 +5,9 @@ A CUDA backend MPM playground.(hopefully)
   - Eigen 
   - tinyobjloader
   - bgfx: https://bkaradzic.github.io/bgfx/
-  - CUDA toolkits >= 11.6 (for thrust and cub)
+  - Nvidia CUDA toolkit >= 11.6 (for thrust and cub)
 
-Dependencies are installed through cmake submodules ,expect CUDA toolkit.
+Dependencies are installed through cmake submodules ,except CUDA toolkit.
 For linux Ubuntu, do:
 ```
 sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
