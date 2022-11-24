@@ -15,8 +15,9 @@ sudo sh -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ub
 sudo apt-get update
 sudo apt-get install -y cuda-toolkit-11-6
 ```
-As line `1` please refer https://developer.download.nvidia.cn/compute/cuda/repos/ to choose your platform and backend for valid key (named `xxxxxxxx.pub`).
- `2`'s ubuntu`1804` should be your kernel version.
+As line `1`'s `ubuntu1804/x86_64/7fa2af80.pub` please refer to https://developer.download.nvidia.cn/compute/cuda/repos/ to choose your platform and backend for valid key (named `xxxxxxxx.pub`).
+
+Line `2`'s ubuntu`1804` should be your kernel version.
  
 Do:
 ```
