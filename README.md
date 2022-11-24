@@ -15,7 +15,7 @@ sudo sh -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ub
 sudo apt-get update
 sudo apt-get install -y cuda-toolkit-11-6
 ```
-As line `1`'s `ubuntu1804/x86_64/7fa2af80.pub` please refer to https://developer.download.nvidia.cn/compute/cuda/repos/ to choose your platform and backend for valid key (named `xxxxxxxx.pub`).
+As for line `1`'s `ubuntu1804/x86_64/7fa2af80.pub`, please refer to https://developer.download.nvidia.cn/compute/cuda/repos/ to choose your platform and backend for valid key (named `xxxxxxxx.pub`).
 
 Line `2`'s `ubuntu1804/x86_64` should be your kernel version and platform backend.
  
@@ -23,4 +23,4 @@ Do:
 ```
 sudo apt-get install libgl1-mesa-dev x11proto-core-dev libx11-dev
 ```
-for bgfx build support. (Other platform should be refer https://bkaradzic.github.io/bgfx/build.html for dependency.)
+for bgfx build support. (Other platform should refer https://bkaradzic.github.io/bgfx/build.html for dependency.)
