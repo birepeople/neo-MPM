@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+cmake-build-debug-visual-studio
+cmake-build-release-visual-studio
+cmake-build-debug-wsl
+cmake-build-release-wsl
